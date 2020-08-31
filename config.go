@@ -34,7 +34,7 @@ type Config struct {
 
 func NewConfig(path string) *Config {
 	c := &Config{
-		defaultPath: "config.json",
+		defaultPath: "api_doc/config.json",
 		defaultLogs: "",
 	}
 	if path != "" {
