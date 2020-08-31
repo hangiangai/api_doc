@@ -34,7 +34,7 @@ type Config struct {
 
 func NewConfig(path string) *Config {
 	c := &Config{
-		defaultPath: "api_doc/config.json",
+		defaultPath: dirname + "/config.json",
 		defaultLogs: "",
 	}
 	if path != "" {
@@ -77,7 +77,7 @@ func (c *Config) handlerConfigUpdated() map[string]int {
 func (c *Config) WriteMatchFunc() {
 	// 写入匹配函数
 	var matchStr string
-	matchStr += "\npackage doc"
+	matchStr += "\npackage api_doc"
 	matchStr += "\n\nfunc match(note *note, key string, value []string){"
 	matchStr += "\n\tswitch key {"
 	matchStr += "\n\tcase \"" + strings.Join(baseKeys["@title"], "\",\"") + "\":"
@@ -91,7 +91,7 @@ func (c *Config) WriteMatchFunc() {
 	matchStr += "\n\tcase \"" + strings.Join(baseKeys["@param"], "\",\"") + "\":"
 	matchStr += "\n\t\tnote.Params = append(note.Params, value)"
 	matchStr += "\n\t} \n}"
-	if err := ioutil.WriteFile("match.go", []byte(matchStr), 0777); err != nil {
+	if err := ioutil.WriteFile(dirname + "/match.go", []byte(matchStr), 0777); err != nil {
 		log.Println(err)
 	}
 }
