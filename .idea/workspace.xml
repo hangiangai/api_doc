@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e9a8b91-bf38-4091-95b8-298e9ef716c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/config.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doc.go" beforeDir="false" afterPath="$PROJECT_DIR$/doc.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/match.go" beforeDir="false" afterPath="$PROJECT_DIR$/match.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +39,12 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
@@ -107,22 +110,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="410" y="154" width="1099" height="882" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1598866852213" />
-    <state width="1854" height="373" key="GridCell.Tab.0.bottom" timestamp="1598867264181">
+    <state width="1724" height="373" key="GridCell.Tab.0.bottom" timestamp="1598869094107">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1854" height="373" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1598867264181" />
-    <state width="1854" height="373" key="GridCell.Tab.0.center" timestamp="1598867264179">
+    <state width="1724" height="373" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1598869094107" />
+    <state width="1724" height="373" key="GridCell.Tab.0.center" timestamp="1598869094105">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1854" height="373" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1598867264179" />
-    <state width="1854" height="373" key="GridCell.Tab.0.left" timestamp="1598867264177">
+    <state width="1724" height="373" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1598869094105" />
+    <state width="1724" height="373" key="GridCell.Tab.0.left" timestamp="1598869094103">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1854" height="373" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1598867264177" />
-    <state width="1854" height="373" key="GridCell.Tab.0.right" timestamp="1598867264180">
+    <state width="1724" height="373" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1598869094103" />
+    <state width="1724" height="373" key="GridCell.Tab.0.right" timestamp="1598869094106">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1854" height="373" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1598867264180" />
+    <state width="1724" height="373" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1598869094106" />
     <state x="214" y="0" key="SettingsEditor" timestamp="1598865820743">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

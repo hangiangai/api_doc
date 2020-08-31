@@ -1,9 +1,5 @@
 package api_doc
 
-import (
-	"os"
-)
-
 type Response struct {
 	Docs      []*Doc
 	IpAddr    string
@@ -40,7 +36,7 @@ var (
 )
 
 func InitAndRun(path string) {
-	dirname, _ = os.Getwd()
+	dirname = "github/api_doc"
 	store.Run()
 	go hub.run()
 	config = NewConfig(path)
