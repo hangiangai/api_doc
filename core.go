@@ -35,6 +35,22 @@ func __filter__(c byte) bool {
 	return result
 }
 
+func match(note *note, key string, value []string){
+	key = "@" + key
+	switch baseKeys[key] {
+	case Title:
+		note.Title = value[0]
+	case Url:
+		note.Url = value[0]
+	case Header:
+		note.Header = value[0]
+	case Method:
+		note.Method = value[0]
+	case Param:
+		note.Params = append(note.Params, value)
+	}
+}
+
 /*
 	notes 用于存储解析的内容
 	con 读取的内容
@@ -133,7 +149,7 @@ func (doc *Doc) toDoc(filepath string, buffer *bytes.Buffer) *Doc {
 			}
 			return false
 		})
-
+	fmt.Println(document)
 	return &document
 }
 

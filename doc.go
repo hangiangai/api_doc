@@ -32,14 +32,12 @@ var (
 	config   *Config
 	store    = NewStore()
 	hub      = newHub()
-	dirname  string
 )
 
-func InitAndRun(path string) {
-	dirname = "github/api_doc"
+func InitAndRun(filepath string) {
 	store.Run()
 	go hub.run()
-	config = NewConfig(path)
+	config = NewConfig(filepath)
 	baseDocs.params(config.files())
 	fWatcher := newFWatcher(config.files())
 	fWatcher.run()

@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="5e9a8b91-bf38-4091-95b8-298e9ef716c2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core.go" beforeDir="false" afterPath="$PROJECT_DIR$/core.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/core_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doc.go" beforeDir="false" afterPath="$PROJECT_DIR$/doc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/match.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +58,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build main.go">
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="api_doc" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
@@ -67,6 +72,39 @@
       <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/main.go" />
       <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestToDoc in github.com/hangiangai/api_doc (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="api_doc" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/hangiangai/api_doc" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestToDoc\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestToDoc in github.com/hangiangai/api_doc (2)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="api_doc" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/hangiangai/api_doc" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestToDoc\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestToDoc in github.com/hangiangai/api_doc (3)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="api_doc" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/hangiangai/api_doc" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestToDoc\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestToDoc in github.com/hangiangai/api_doc" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -84,9 +122,16 @@
       <item itemvalue="Go Build.go build main.go" />
       <item itemvalue="Go Build.go build " />
       <item itemvalue="Go Test.TestToDoc in github.com/hangiangai/api_doc" />
+      <item itemvalue="Go Test.TestToDoc in github.com/hangiangai/api_doc (1)" />
+      <item itemvalue="Go Test.TestToDoc in github.com/hangiangai/api_doc (2)" />
+      <item itemvalue="Go Test.TestToDoc in github.com/hangiangai/api_doc (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Test.TestToDoc in github.com/hangiangai/api_doc (3)" />
+        <item itemvalue="Go Test.TestToDoc in github.com/hangiangai/api_doc (2)" />
+        <item itemvalue="Go Test.TestToDoc in github.com/hangiangai/api_doc (1)" />
         <item itemvalue="Go Test.TestToDoc in github.com/hangiangai/api_doc" />
       </list>
     </recent_temporary>
@@ -110,29 +155,29 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="410" y="154" width="1099" height="882" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1598866852213" />
-    <state width="1724" height="373" key="GridCell.Tab.0.bottom" timestamp="1598869094107">
+    <state width="1854" height="329" key="GridCell.Tab.0.bottom" timestamp="1598879662305">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1724" height="373" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1598869094107" />
-    <state width="1724" height="373" key="GridCell.Tab.0.center" timestamp="1598869094105">
+    <state width="1854" height="329" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1598879662305" />
+    <state width="1854" height="329" key="GridCell.Tab.0.center" timestamp="1598879662305">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1724" height="373" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1598869094105" />
-    <state width="1724" height="373" key="GridCell.Tab.0.left" timestamp="1598869094103">
+    <state width="1854" height="329" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1598879662305" />
+    <state width="1854" height="329" key="GridCell.Tab.0.left" timestamp="1598879662304">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1724" height="373" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1598869094103" />
-    <state width="1724" height="373" key="GridCell.Tab.0.right" timestamp="1598869094106">
+    <state width="1854" height="329" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1598879662304" />
+    <state width="1854" height="329" key="GridCell.Tab.0.right" timestamp="1598879662305">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1724" height="373" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1598869094106" />
+    <state width="1854" height="329" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1598879662305" />
     <state x="214" y="0" key="SettingsEditor" timestamp="1598865820743">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="214" y="0" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1598865820743" />
-    <state x="453" y="-2" width="1009" height="1470" key="search.everywhere.popup" timestamp="1598866985631">
+    <state x="453" y="-2" width="1009" height="1470" key="search.everywhere.popup" timestamp="1598874212275">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="453" y="-2" width="1009" height="1470" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1598866985631" />
+    <state x="453" y="-2" width="1009" height="1470" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1598874212275" />
   </component>
 </project>

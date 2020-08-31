@@ -5,6 +5,7 @@ import (
 )
 
 func TestToDoc(t *testing.T) {
+	InitAndRun("")
 	//got :=
 	//want := Doc{
 	//	Path: "./doc.go",
