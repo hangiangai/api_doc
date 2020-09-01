@@ -35,7 +35,7 @@ func __filter__(c byte) bool {
 	return result
 }
 
-func match(note *note, key string, value []string){
+func match(note *note, key string, value []string) {
 	key = "@" + key
 	switch baseKeys[key] {
 	case Title:
@@ -83,7 +83,9 @@ func extractNote(notes *[]note, con []byte, cLen int, count *int, filter func(n 
 		} else if begin && i+1 < cLen && con[i] == '*' && con[i+1] == '/' {
 			begin = false
 			val := strings.Split(currentExtractCon.String(), ":")
-			match(&(*notes)[*count], val[0], val[1:])
+			if len(val[1:]) > 0 {
+				match(&(*notes)[*count], val[0], val[1:])
+			}
 			if filter != nil && filter(&(*notes)[*count]) {
 				isAppend = false
 			} else {
@@ -149,7 +151,7 @@ func (doc *Doc) toDoc(filepath string, buffer *bytes.Buffer) *Doc {
 			}
 			return false
 		})
-	fmt.Println(document)
+	fmt.Println(document.Count)
 	return &document
 }
 

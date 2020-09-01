@@ -5,7 +5,7 @@ import (
 )
 
 func TestToDoc(t *testing.T) {
-	InitAndRun("")
+	//InitAndRun("config.json")
 	//got :=
 	//want := Doc{
 	//	Path: "./doc.go",
